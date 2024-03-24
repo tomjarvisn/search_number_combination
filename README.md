@@ -185,4 +185,4 @@ In other cell sum.
  ![negativenumbers](images\image_11.png)
  -Leave it in false if you dont have negative number for better performance.
 
-
+I hope is usefull!! pleas leave in comments if you had problems

@@ -28,7 +28,7 @@ There's a more efficient way to do this using a custom function in Google Sheets
 
 #### Now, let's create your own custom function.
 
-![apps script paste](images\image_03.png)
+![apps script paste](images/image_03.png)
 
 ```javascript
 /**
@@ -140,11 +140,11 @@ function transposeMatrix(matrix) {
 ```
 #### You can copy and paste this content directly into your **Apps Script** and safe it!
 
-![apps script safe](images\image_05.png)
+![apps script safe](images/image_05.png)
 
 #### Ones we finish refresh the web page (just in case) so the new funtion start working.
 
-![apps script paste](images\image_06.png)
+![apps script paste](images/image_06.png)
 so you can use the next funtion
 
 The funtion is
@@ -158,31 +158,31 @@ The funtion is
  - it will pass all the numbers that are higher from the **target number** or null or 0.
  - try not to use more than 20 cells if not it can colapse. 
 
-![negativenumbers](images\image_07.png)
+![negativenumbers](images/image_07.png)
 
 #### **targetCell:** here you put the number you are looking for
-![targetcell](images\image_08.png)
+![targetcell](images/image_08.png)
 
 ### ***Important!!*** the cells you call for the funtion they need " " like the image above.
-!["cells"](images\image_09.png)
+!["cells"](images/image_09.png)
 
 - If the funtion colapse it can be because the the target number is represent almoust all the *cellRange* numbers. you can try the other way round. 
 In other cell sum. 
  * =sum(all the cells in *cellrange*)-*cellRange*
 
- ![opositetarget](images\image_13.png)
- ![error2](images\image_14.png)
+ ![opositetarget](images/image_13.png)
+ ![error2](images/image_14.png)
  * this will be the oposite *targetCell*, try to use like *targetCell* an the combination that wive you are the numbers that are not part of the sum
 
  #### **marginOfError:** here you put whats your margin error from the target 
  * Example: if you use 2 it will accept *targetCell* value + or 
  -2
- ![error](images\image_12.png) 
+ ![error](images/image_12.png) 
 
 
  #### **positiveAndNegativeValues** it only accept booling values (true/false) 
  - if you are looking por negative values then *TRUE* of not *FALSE*
- ![negativenumbers](images\image_11.png)
+ ![negativenumbers](images/image_11.png)
  -Leave it in false if you dont have negative number for better performance.
 
 I hope is usefull!! pleas leave in comments if you had problems
